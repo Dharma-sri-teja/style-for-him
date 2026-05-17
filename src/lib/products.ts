@@ -30,7 +30,7 @@ export const products: Product[] = [
       "Layer beneath a beige overshirt for a clean Seoul café look.",
       "Pair with a steel-link watch and tortoise sunglasses.",
     ],
-    affiliate: "https://www.amazon.com",
+    affiliate: "https://www.amazon.com/dp/B0C5M8R7GK?tag=srylewithus-20&linkCode=ll1"
   },
   {
     slug: "indigo-baggy-jeans",
@@ -45,7 +45,7 @@ export const products: Product[] = [
       "Anchor with a black knit and silver chain for Korean street energy.",
       "Stack over chunky loafers for downtown evenings.",
     ],
-    affiliate: "https://www.amazon.com",
+    affiliate: "https://www.amazon.com/dp/B08N5WRWNW?tag=srylewithus-20&linkCode=ll1"
   },
   {
     slug: "silver-link-watch",
@@ -60,7 +60,7 @@ export const products: Product[] = [
       "Works with polo, oxford, or bare wrist.",
       "Replace the leather strap seasonally to refresh the look.",
     ],
-    affiliate: "https://www.amazon.com",
+    affiliate: "https://www.amazon.com/dp/B07HDSK9VV?tag=srylewithus-20&linkCode=ll1"
   },
   {
     slug: "leather-court-sneaker",
@@ -75,7 +75,7 @@ export const products: Product[] = [
       "Pair with cream trousers for a quiet luxury Sunday.",
       "Keep them clean — that's the entire point.",
     ],
-    affiliate: "https://www.amazon.com",
+    affiliate: "https://www.amazon.com/dp/B07ZPKN6L8?tag=srylewithus-20&linkCode=ll1"
   },
   {
     slug: "tortoise-sunglasses",
@@ -90,7 +90,7 @@ export const products: Product[] = [
       "Pair with a beige overshirt and silver chain.",
       "Wipe with a microfiber cloth — never your t-shirt.",
     ],
-    affiliate: "https://www.amazon.com",
+    affiliate: "https://www.amazon.com/dp/B01M1EEPOB?tag=srylewithus-20&linkCode=ll1"
   },
   {
     slug: "forest-cashmere-knit",
@@ -105,7 +105,7 @@ export const products: Product[] = [
       "Tuck the front into pleated trousers for a sculpted line.",
       "Hand wash cold, dry flat — it will last a decade.",
     ],
-    affiliate: "https://www.amazon.com",
+    affiliate: "https://www.amazon.com/dp/B09QK4LQ7R?tag=srylewithus-20&linkCode=ll1"
   },
 ];
 
