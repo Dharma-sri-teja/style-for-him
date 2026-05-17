@@ -30,7 +30,7 @@ export const products: Product[] = [
       "Layer beneath a beige overshirt for a clean Seoul café look.",
       "Pair with a steel-link watch and tortoise sunglasses.",
     ],
-    affiliate: "https://www.amazon.com",
+    affiliate: "https://www.amazon.com/dp/B0C5M8R7GK?tag=srylewithus-20&linkCode=ll1"
   },
   {
     slug: "indigo-baggy-jeans",
