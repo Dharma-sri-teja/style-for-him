@@ -97,7 +97,7 @@ function ProductPage() {
             <div className="mt-12 border-t border-border pt-10">
               <p className="eyebrow">Styling Notes</p>
               <ul className="mt-5 space-y-4">
-                {product.tips.map((t, i) => (
+                {product.tips.map((t: string, i: number) => (
                   <li key={i} className="flex gap-4 text-sm text-foreground/80">
                     <span className="font-display text-accent text-lg leading-none">0{i + 1}</span>
                     <span className="leading-relaxed">{t}</span>
