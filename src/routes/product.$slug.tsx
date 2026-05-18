@@ -76,15 +76,17 @@ function ProductPage() {
             </p>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-3">
-              <a
-                href={product.affiliate}
-                target="_blank"
-                rel="noopener nofollow sponsored"
-                className="group inline-flex items-center justify-center gap-3 bg-foreground px-8 py-4 text-sm tracking-widest uppercase text-background hover:bg-accent transition-colors"
-              >
-                Buy on Amazon
-                <ArrowUpRight size={16} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-              </a>
+              {affiliateUrl && (
+                <a
+                  href={affiliateUrl}
+                  target="_blank"
+                  rel="noopener nofollow sponsored"
+                  className="group inline-flex items-center justify-center gap-3 bg-foreground px-8 py-4 text-sm tracking-widest uppercase text-background hover:bg-accent transition-colors w-full sm:w-auto min-h-[52px]"
+                >
+                  Buy on Amazon
+                  <ArrowUpRight size={16} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                </a>
+              )}
               <a
                 href={pinUrl}
                 target="_blank"
