@@ -39,6 +39,7 @@ export const Route = createFileRoute("/product/$slug")({
 function ProductPage() {
   const product = Route.useLoaderData();
   const related = products.filter((p) => p.slug !== product.slug).slice(0, 3);
+  const affiliateUrl = getAffiliateUrl(product.asin);
   const pinUrl = `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(
     `https://srylewithus.com/product/${product.slug}`
   )}&media=&description=${encodeURIComponent(product.name)}`;
